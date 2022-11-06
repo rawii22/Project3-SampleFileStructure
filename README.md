@@ -2,7 +2,9 @@
 Demonstration of how to arrange Java files for compiling properly.
 
 In order to compile, use "javac -d bin .\com\mysql\example\Main.java"
-Then, to create a JAR, use "jar cvfm main.jar manifest.mf -C bin .
+
+Then, to create a JAR, use "jar cvfm main.jar manifest.mf -C bin ."
+
 To run, just use "java -jar main.jar"
 
 All of these commands should be run from the src directory, which is treated as the root of this hierarchy.
